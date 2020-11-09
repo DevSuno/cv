@@ -1,7 +1,9 @@
 const previewVue = document.querySelector("#preview-vue")
-const previewReact = document.querySelector("#preview-react")
 const qrcode_vue = document.querySelector(".account_vue")
-const qrcode_react = document.querySelector(".account_react")
+const doraemon = document.querySelector("#doraemon")
+const qrcode_doraemon = document.querySelector(".doraemon")
+const canvas = document.querySelector("#canvas")
+const qrcode_canvas = document.querySelector(".canvas")
 const width = document.documentElement.clientWidth
 function previewQrCode(target, show) {
     target.addEventListener("mouseenter", () => {
@@ -15,5 +17,7 @@ function previewQrCode(target, show) {
 }
 if (width > 500) {
     previewQrCode(previewVue, qrcode_vue)
-    previewQrCode(previewReact, qrcode_react)
+    previewQrCode(doraemon, qrcode_doraemon)
+    previewQrCode(canvas, qrcode_canvas)
+
 }
