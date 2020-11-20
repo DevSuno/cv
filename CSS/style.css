@@ -94,6 +94,8 @@ main > aside > section > div {
 }
 .more {
     border: none;
+    padding: 10px 0;
+    border-bottom: 2px solid #bbbbbb;
 }
 .more > ul > li > img {
     width: 24px;

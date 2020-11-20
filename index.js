@@ -4,6 +4,8 @@ const doraemon = document.querySelector("#doraemon")
 const qrcode_doraemon = document.querySelector(".doraemon")
 const canvas = document.querySelector("#canvas")
 const qrcode_canvas = document.querySelector(".canvas")
+const dingdangUi = document.querySelector("#dingdangUI")
+const qrcode_dingdang = document.querySelector(".dingdang_vue")
 const width = document.documentElement.clientWidth
 function previewQrCode(target, show) {
     target.addEventListener("mouseenter", () => {
@@ -19,5 +21,6 @@ if (width > 500) {
     previewQrCode(previewVue, qrcode_vue)
     previewQrCode(doraemon, qrcode_doraemon)
     previewQrCode(canvas, qrcode_canvas)
+    previewQrCode(dingdangUi, qrcode_dingdang)
 
 }
