@@ -190,15 +190,3 @@ main > aside > section > div {
         align-items: flex-start;
     }
 }
-@media print {
-    .page-2{
-        page-break-before: always;
-        margin-top: 10px;
-    }
-    .more {
-        page-break-before: always;
-    }
-    .skills {
-        border-bottom: none;
-    }
-}
