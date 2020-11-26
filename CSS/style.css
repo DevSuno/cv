@@ -77,9 +77,7 @@ main > aside > section > div {
     word-break: break-all;
     list-style: inside;
 }
-.personal {
-    margin-top: 40px;
-}
+
 .personal > ul > li {
     display: flex;
     justify-content: space-between;
